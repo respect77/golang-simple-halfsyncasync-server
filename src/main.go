@@ -14,11 +14,6 @@ import (
 )
 
 func main() {
-	fmt.Println(packet_data.Position_Down)
-	
-	s := packet_data.Position_Down
-
-	fmt.Println(s.Enum())
     runtime.GOMAXPROCS(runtime.NumCPU())
 	var wg sync.WaitGroup
 
